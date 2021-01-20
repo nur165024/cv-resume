@@ -1,0 +1,540 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    h1 {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    /* banner part */
+    .my_banner_img {
+        position: relative;
+        top: 50px;
+    }
+
+    .my_banner_img img{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .banner_text {
+        position: relative;
+        top: 75px;
+        text-align: center;
+    }
+
+    .banner_button a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 12px;
+        border-radius: 10px;
+    }
+
+    .banner_button .btn_1 {
+        background: #401e9d;
+        color: #ffffff;
+        margin-right: 15px;
+        transition: all .4s ease;
+    }
+
+    /* about part */
+    #about_part {
+        padding: 50px 0;
+    }
+
+    .my_about_img {
+        position: relative;
+        left: 50%;
+        width: 70%;
+        box-shadow: 0px 4px 18px rgba(0,0,0,0.1);
+        background: #ffffff;
+        transform: rotate(45deg);
+        border-radius: 50px;
+        box-sizing: border-box;
+        overflow: hidden;
+        transform: translateX(-50%) rotate(45deg);
+    }
+
+    .about_icon {
+        position: absolute;
+        left: 45%;
+        bottom: -72px;
+        background: linear-gradient(65deg, #401e9d 0%, #861dec 100%);
+        transform: rotate(-90deg);
+        padding: 5px 8px;
+        border-radius: 10px;
+    }
+
+    .about_text_item{
+        margin-top: 50px;
+    }
+
+    /* skill part */
+    #progressBar {
+        padding: 50px 0;
+    }
+
+    .skill_part p {
+        padding: 0;
+    }
+
+    /* expirience */
+    #expirience {
+        padding: 50px 0;
+    }
+
+    #nav_item_expirience ul li a{
+        margin-left: 15px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: #333;
+        font-size: 22px;
+        border-radius: 15px;
+    }
+
+    .expirience_text p {
+        padding: 0px;
+    }
+
+    /* work part */
+    #work_part {
+        padding: 50px 0;
+    }
+
+    .word_heading_text p {
+        padding: 15px 0;
+    }
+
+    /* testimonials part */
+    #testimonials_part {
+        padding: 50px 0;
+    }
+
+    .testimonials_heading p {
+        padding: 15px 0;
+    }
+
+    /* contant_part */
+    #contant_part {
+        padding: 50px 0 0 0;
+    }
+
+    .contact_heading p {
+        padding: 15px 0px;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    /* banner part */
+    .my_banner_img {
+        position: relative;
+        top: 50px;
+    }
+
+    .my_banner_img img{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .banner_text {
+        position: relative;
+        top: 70px;
+        text-align: center;
+    }
+
+    .banner_button a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 12px 15px;
+        border-radius: 10px;
+    }
+
+    /* about part */
+    #about_part {
+        padding: 60px 0;
+    }
+
+    .my_about_img {
+        position: relative;
+        left: 50%;
+        width: 60%;
+        box-shadow: 0px 4px 18px rgba(0,0,0,0.1);
+        background: #ffffff;
+        transform: rotate(45deg);
+        border-radius: 50px;
+        box-sizing: border-box;
+        overflow: hidden;
+        transform: translateX(-50%) rotate(45deg);
+    }
+
+    .about_icon {
+        position: absolute;
+        left: 45%;
+        bottom: -72px;
+        background: linear-gradient(65deg, #401e9d 0%, #861dec 100%);
+        transform: rotate(-90deg);
+        padding: 5px 8px;
+        border-radius: 10px;
+    }
+
+    .about_text_item{
+        margin-top: 50px;
+    }
+
+    /* progressBar */
+    #progressBar {
+        padding: 60px 0;
+    }
+
+    .skill_part p {
+        padding: 0;
+    }
+
+    /* expirience */
+    #expirience {
+        padding: 60px 0;
+    }
+
+    .expirience_text p {
+        padding: 0;
+    }
+
+    #nav_item_expirience ul li a {
+        margin-left: 48px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: #333;
+        font-size: 35px;
+        border-radius: 15px;
+    }
+
+    /* work_part */
+    #work_part {
+        padding: 60px 0;
+    }
+
+    .word_heading_text p {
+        padding: 15px 0;
+    }
+
+    #testimonials_part {
+        padding: 60px 0;
+    }
+
+    .testimonials_heading p {
+        padding: 15px 0;
+    }
+
+    /* contant_part */
+    #contant_part {
+        padding: 60px 0 0 0;
+    }
+
+    .contact_heading p {
+        padding: 15px 0;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 2px;
+    }
+
+    h3 {
+        font-size: 27px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    /* manu part */
+    #navbarSupportedContent ul li {
+        margin-left: 0px;
+        padding: 10px 0;
+        z-index: 999;
+        background: #ffffff;
+    }
+
+    #navbarSupportedContent ul li a {
+        color: #000;
+        font-size: 13px;
+        font-weight: 500;
+        transition: all .4s ease;
+    }
+
+    /* banner part */
+    #banner_part {
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        background-attachment: fixed !important;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .my_banner_img img{
+        position: relative;
+        width: 300px;
+        height: 280px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .banner_button a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 12px 16px;
+        border-radius: 10px;
+    }
+
+    .banner_text {
+        position: relative;
+        top: 150px;
+    }
+
+    .my_banner_img {
+        position: relative;
+        top: 110px;
+    }
+
+    /* about part */
+    #about_part {
+        padding: 70px 0;
+    }
+
+    .my_about_img {
+        position: relative;
+        left: 50%;
+        width: 60%;
+        box-shadow: 0px 4px 18px rgba(0,0,0,0.1);
+        background: #ffffff;
+        transform: rotate(45deg);
+        border-radius: 50px;
+        box-sizing: border-box;
+        overflow: hidden;
+        transform: translateX(-50%) rotate(45deg);
+    }
+
+    .about_icon {
+        position: absolute;
+        left: 45%;
+        bottom: -72px;
+        background: linear-gradient(65deg, #401e9d 0%, #861dec 100%);
+        transform: rotate(-90deg);
+        padding: 5px 8px;
+        border-radius: 10px;
+    }
+
+    .about_text_item{
+        margin-top: 50px;
+    }
+
+    /* skill part */
+    #progressBar {
+        padding: 70px 0;
+    }
+
+    .skill_part p {
+        padding: 15px 80px;
+    }
+
+    /* expirience part */
+    #expirience {
+        padding: 70px 0;
+    }
+
+    .expirience_text p {
+        padding: 15px 80px;
+    }
+
+    #nav_item_expirience ul li a {
+        margin-left: 80px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: #333;
+        font-size: 40px;
+        border-radius: 15px;
+    }
+
+    /* work part */
+    #work_part {
+        padding: 70px 0;
+    }
+
+    .word_heading_text p {
+        padding: 15px 80px;
+    }
+
+    /* testimonials part */
+    #testimonials_part {
+        padding: 70px 0;
+    }
+
+    .testimonials_heading p {
+        padding: 15px 80px;
+    }
+
+    /* contant part */
+    #contant_part {
+        padding: 70px 0 0 0;
+    }
+
+    .contact_heading p {
+        padding: 15px 80px;
+    }
+
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1 {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 2px;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    /* manu part */
+    #navbarSupportedContent ul li {
+        margin-left: 18px;
+        padding: 10px 0;
+        z-index: 999;
+        background: #ffffff;
+    }
+
+    #navbarSupportedContent ul li a {
+        color: #000;
+        font-size: 17px;
+        font-weight: 500;
+        transition: all .4s ease;
+    }
+
+    /* banner part */
+    #banner_part {
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        background-attachment: fixed !important;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .banner_button a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 13px 15px;
+        border-radius: 10px;
+    }
+
+    /* about part */
+    #about_part {
+        padding: 90px 0;
+    }
+
+    .my_about_img {
+        position: relative;
+        top: 0;
+        left: 28px;
+        width: 100%;
+        box-shadow: 0px 4px 18px rgba(0,0,0,0.1);
+        background: #ffffff;
+        transform: rotate(45deg);
+        border-radius: 50px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    /* progressBar */
+    #progressBar {
+        padding: 90px 0;
+    }
+
+    /* expirience */
+    #expirience {
+        padding: 90px 0;
+    }
+
+    #nav_item_expirience ul li a {
+        margin-left: 130px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: #333;
+        font-size: 40px;
+        border-radius: 15px;
+    }
+
+    /* work part */
+    #work_part {
+        padding: 90px 0;
+    }
+
+    /* testimonials part */
+    #testimonials_part {
+        padding: 90px 0;
+    }
+
+    /* contant part */
+    #contant_part {
+        padding: 90px 0 0 0;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .my_about_img {
+        position: relative;
+        top: 0;
+        left: 30px;
+        width: 100%;
+        box-shadow: 0px 4px 18px rgba(0,0,0,0.1);
+        background: #ffffff;
+        transform: rotate(45deg);
+        border-radius: 50px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+}
